@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td,tr,th{
+            border: 1px solid green;
+            
+            border-radius: 30px;
+            text-align: center;
+        }
+        th{
+            background-color: greenyellow;
+        }
+        td{
+            color:plum;
+            padding: 10px;
+        }
+        /* tr:nth-child(even) {
+                background-color: #D6EEEE;
+         }
+        td:nth-child(even), th:nth-child(even) {
+                background-color: #D6EEEE;
+         } */
+         body{
+             background-image: url("emp2.PNG");
+             background-repeat: no-repeat;
+             background-size:cover ;
+         }
+    </style>
+</head>
+<body>
+    <h1>Sample Table Example</h1>
+    <table>
+        <tr><th></th><th>name</th><th>age</th><th>course</th></tr>
+        <tr><th>EMP_1</th><td>Mouli</td><td>24</td><td>python</td></tr>
+        <tr><th>EMP_2</th><td>chand</td><td>24</td><td>UI</td></tr>
+        <tr><th>EMP_3</th><td>Ram</td><td>24</td><td>Ux</td></tr>
+    </table>
+    <caption>this is employee list</caption>
+
+    <ul>Ojas techonologys 
+        <ol>
+            <li>olic</li>
+              <ul type="disc">
+                  <li>python</li>
+                  <li>java</li>
+                  <li>ui</li>
+                  <li>.Net</li>
+              </ul>
+            <li>olmc</li>
+            <ul>
+                <li>Admin</li>
+                <li>Trainer</li>
+                <li>Hr</li>
+                <li>Management</li>
+            </ul>
+        </ol>
+    </ul>
+<form>
+    <input type="text" placeholder="userName" required="true">
+    <input type="tel" placeholder="mobilenumber" maxlength="10" required>
+    <input type="number" min="25" max="50">
+    <input type="file" multiple="true">
+    <input type="date">
+    <input type="mail" placeholder="enter your mail">
+    <input type="datetime-local">
+    <input type="search" value="search">
+    <input type="submit">
+    <input type="reset">
+</form>
+</body>
+</html>
